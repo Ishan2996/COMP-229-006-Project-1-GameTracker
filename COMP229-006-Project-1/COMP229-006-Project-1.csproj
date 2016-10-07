@@ -61,6 +61,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\bg.png" />
     <Content Include="Assets\images\logo.jpg" />
     <Content Include="Content\app.css" />
     <Content Include="Default.aspx" />

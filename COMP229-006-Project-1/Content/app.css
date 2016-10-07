@@ -1,4 +1,5 @@
 ﻿body {
+    background-color:lightgray;
 }
 #game1 {
     width: 300px;
@@ -6,6 +7,7 @@
     padding: 25px;
     margin: 25px;
     float:left;
+    border-radius:40%;
 }
 #game2{
     width: 300px;
@@ -14,6 +16,7 @@
     margin: 25px;
     float:left;
     clear:both;
+    border-radius:40%;
 }
 #game3{
     width: 300px;
@@ -21,7 +24,7 @@
     padding: 25px;
     margin: 25px;
     float:right;
-   
+    border-radius:40%;
 }
 #game4{
      width: 300px;
@@ -29,4 +32,10 @@
     padding: 25px;
     margin: 25px;
     float:right;
+    border-radius:40%;
 }
+#bg{
+    margin-left:12%;
+    margin-top: 7%;
+     
+    }

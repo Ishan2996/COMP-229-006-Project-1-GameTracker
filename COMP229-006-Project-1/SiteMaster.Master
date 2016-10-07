@@ -60,18 +60,21 @@
     </div>
   <div>
       <div id="game1">
-    <h1>Game 1</h1>
+    <h1><b>GAME-1</b></h1>
 </div> 
        <div id="game3">
-            <h1>Game 3</h1>
+            <h1><b>GAME-2</b></h1>
         </div>
-  </div>     
+  </div>  
+       
+        <img id="bg" src="Assets/images/bg.png" />  
+           
         <div>
              <div id="game2">
-            <h1>Game 2</h1>
+            <h1><b>GAME-2</b></h1>
         </div>
             <div id="game4">
-                <h1>Game 4</h1>
+                <h1><b>GAME-4</b></h1>
             </div>
         </div>
       
