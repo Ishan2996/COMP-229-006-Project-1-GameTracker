@@ -1,2 +1,32 @@
 ﻿body {
 }
+#game1 {
+    width: 300px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px;
+    float:left;
+}
+#game2{
+    width: 300px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px;
+    float:left;
+    clear:both;
+}
+#game3{
+    width: 300px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px;
+    float:right;
+   
+}
+#game4{
+     width: 300px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px;
+    float:right;
+}
