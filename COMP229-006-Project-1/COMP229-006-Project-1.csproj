@@ -61,6 +61,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\logo.jpg" />
     <Content Include="Content\app.css" />
     <Content Include="Default.aspx" />
     <Content Include="packages.config" />
@@ -134,7 +135,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\" />
     <Folder Include="Contents\" />
     <Folder Include="Models\" />
   </ItemGroup>
