@@ -55,3 +55,14 @@ body {
 }
 .btn.btn-circle { border-radius: 40px; }
 .btn.btn-outline { background-color: transparent; }
+
+#btn{
+    border-radius:50%;
+    float:left;
+    height: 40px;
+}
+#btn2{
+    float:right;
+    border-radius:50%;
+    height: 40px;
+}
