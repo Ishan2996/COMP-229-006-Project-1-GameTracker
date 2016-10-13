@@ -27,7 +27,7 @@ namespace COMP229_006_Project_1
         }
 
         /// <summary>
-        /// This method gets the student data from the DB
+        /// This method gets the game data from the DB
         /// </summary>
         private void GetFootball1()
         {
@@ -43,5 +43,7 @@ namespace COMP229_006_Project_1
                 football.DataBind();
             }
         }
+
+
     }
 }

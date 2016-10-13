@@ -1,0 +1,57 @@
+﻿/*CSS Goes Here*/
+/*
+<!-- Name: Ishan Sharma -->
+<!-- Student ID: 300856455 -->
+<!-- Name: Solanky Thareja -->
+<!-- Student ID: 300869859 -->
+<!-- Date: October 7,2016 -->
+<!-- Online Game Tracker-->
+*/
+
+body {
+    background-color:lightgray;
+}
+#game1 {
+    width: 300px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px;
+    float:left;
+    border-radius:40%;
+}
+#game2{
+    width: 300px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px;
+    float:left;
+    clear:both;
+    border-radius:40%;
+}
+#game3{
+    width: 300px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px;
+    float:right;
+    border-radius:40%;
+}
+#game4{
+     width: 300px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px;
+    float:right;
+    border-radius:40%;
+}
+#bg{
+    margin-left:14%;
+    margin-top: 5%;
+     
+    }
+#is{
+    width:65px;
+    height:50px;
+}
+.btn.btn-circle { border-radius: 40px; }
+.btn.btn-outline { background-color: transparent; }
