@@ -6,17 +6,17 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div>
+
         <div id="game1">
-            <h1><b>FootBall</b></h1>
+            <h3 class="h6"><b>Football</b></h3>
 
-            <asp:GridView ID="football" runat="server" AutoGenerateColumns="false">
+            <asp:GridView ID="football" runat="server" AutoGenerateColumns="false"
+                CssClass="table table-bordered table-striped table-hover">
                 <Columns>
-                    <asp:BoundField DataField="TeamName1" HeaderText="Team Name" Visible="true" />
-                    <asp:BoundField DataField="TeamScore1" HeaderText="Team Score" Visible="true" />
+                    <asp:BoundField DataField="TeamName1" HeaderText="Team" Visible="true" />
+                    <asp:BoundField DataField="TeamScore1" HeaderText="Score" Visible="true" />
                     <asp:BoundField DataField="Spectators1" HeaderText="Spectators" Visible="true" />
-
                 </Columns>
-
             </asp:GridView>
 
         </div>
@@ -40,7 +40,7 @@
 
     </div>
 
-    
+
 
 
 

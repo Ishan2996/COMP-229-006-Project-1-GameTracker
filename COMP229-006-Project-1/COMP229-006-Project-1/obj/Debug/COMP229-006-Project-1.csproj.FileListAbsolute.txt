@@ -1,0 +1,6 @@
+D:\Ishan Explorer\Centennial College\Semester-3 (FALL-2016)\COMP-229-006-ADV WEB CLIENT DEVELOPMENT\Project-1\COMP229-006-Project-1\COMP229-006-Project-1\bin\COMP229-006-Project-1.dll.config
+D:\Ishan Explorer\Centennial College\Semester-3 (FALL-2016)\COMP-229-006-ADV WEB CLIENT DEVELOPMENT\Project-1\COMP229-006-Project-1\COMP229-006-Project-1\bin\COMP229-006-Project-1.dll
+D:\Ishan Explorer\Centennial College\Semester-3 (FALL-2016)\COMP-229-006-ADV WEB CLIENT DEVELOPMENT\Project-1\COMP229-006-Project-1\COMP229-006-Project-1\bin\COMP229-006-Project-1.pdb
+D:\Ishan Explorer\Centennial College\Semester-3 (FALL-2016)\COMP-229-006-ADV WEB CLIENT DEVELOPMENT\Project-1\COMP229-006-Project-1\COMP229-006-Project-1\obj\Debug\COMP229-006-Project-1.csprojResolveAssemblyReference.cache
+D:\Ishan Explorer\Centennial College\Semester-3 (FALL-2016)\COMP-229-006-ADV WEB CLIENT DEVELOPMENT\Project-1\COMP229-006-Project-1\COMP229-006-Project-1\obj\Debug\COMP229-006-Project-1.dll
+D:\Ishan Explorer\Centennial College\Semester-3 (FALL-2016)\COMP-229-006-ADV WEB CLIENT DEVELOPMENT\Project-1\COMP229-006-Project-1\COMP229-006-Project-1\obj\Debug\COMP229-006-Project-1.pdb

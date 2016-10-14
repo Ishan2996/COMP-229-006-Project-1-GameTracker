@@ -42,28 +42,12 @@
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
-                    <!--<div class="collapse navbar-collapse" id="navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
 
-                            <li>
-                                <a class="btn btn-default btn-outline btn-circle collapsed" href="LogIn.aspx" data-toggle="collapse" aria-expanded="false">SIGN IN</a>
-                            </li>
-                            <li>
-                                <a class="btn btn-default btn-outline btn-circle collapsed" href="LogIn.aspx" data-toggle="collapse" aria-expanded="false">SIGN UP</a>
-                            </li>
-                        </ul>-->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li id="signin" runat="server"><a href="SignIn.aspx"><i class="	fa fa-sign-in " aria-hidden="true"></i><b>SIGN IN</b></a></li>
                             <li id="signup" runat="server"><a href="SignUp.aspx"><i class="fa fa-sign-in" aria-hidden="true"></i><b>SIGN UP</b></a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Modify Data<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="update.aspx">Update</a></li>
-                                    <li><a href="insert.aspx">Add</a></li>
-                                    <li><a href="delete.aspx">Delete</a></li>
-                                </ul>
-                            </li>
+                            
                         </ul>
                     </div>
 
@@ -73,12 +57,12 @@
             </nav>
             <!-- /.navbar -->
 
-            <div id="new">
+            <div id="new" >
                 <ul class="mena" style="margin-top: 0%; width: 26%; margin-left: 0%; float: left; margin-left: 36%;">
-                    <li class="award" style="float: left;"><a href="Default.aspx">Week12</a></li>
-                    <li class="award" style="float: left;"><a href="Week13.aspx">Week13</a></li>
-                    <li class="award" style="float: left;">Week14</li>
-                    <li class="award" style="float: left;">Week15</li>
+                    <li class="award" style="float: left;"><a class="a" href="Default.aspx"><b>Week12</b></a></li>
+                    <li class="award" style="float: left;"><a class="a" href="Week13.aspx"><b>Week13</b></a></li>
+                    <li class="award" style="float: left;"><a class="a" href="Week14.aspx"><b>Week14</b></a></li>
+                    <li class="award" style="float: left;"><a class="a" href="Week15.aspx"><b>Week15</b></a></li>
                 </ul>
             </div>
         </div>
@@ -86,15 +70,14 @@
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <%--  <!-- 
-        <!-- Footer Bar -->
-        <footer role="contentinfo">
+       
+       <footer role="contentinfo">
             <nav class="navbar navbar-main navbar-fixed-bottom" style="background-color: #000000; color: #808080">
                 <div class="container">
                     <marquee id="marquee_speed" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();" scrolldelay="40"> <h3> <img src="Assets/images/logo.png" id="is" /> &copy; <b>Ishan Sharma (#300856455) || Solanky Thareja (#300869859) | Fall-2016-COMP229-006 | Game Tracker </b> </h3>
                 </div>
             </nav>
-        </footer>--%>
+        </footer>
     </form>
 
     <!-- JavaScript Section -->
