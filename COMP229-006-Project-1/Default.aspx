@@ -8,7 +8,7 @@
     <div>
 
         <div id="game1">
-            <h4 class="h6"><b>Football</b></h4>
+            <h3 class="h6"><b>Football</b></h3>
 
             <asp:GridView ID="football" runat="server" AutoGenerateColumns="false"
                 CssClass="table table-bordered table-striped table-hover">
