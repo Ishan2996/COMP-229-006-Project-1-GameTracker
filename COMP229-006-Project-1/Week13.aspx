@@ -21,7 +21,17 @@
 
         </div>
         <div id="game3">
-            <h1><b>GAME-3</b></h1>
+            
+            <h3 class="h6"><b>Basketball</b></h3>
+
+            <asp:GridView ID="basketball" runat="server" AutoGenerateColumns="false"
+                CssClass="table table-bordered table-striped table-hover">
+                <Columns>
+                    <asp:BoundField DataField="TeamName1" HeaderText="Team" Visible="true" />
+                    <asp:BoundField DataField="TeamScore1" HeaderText="Score" Visible="true" />
+                    <asp:BoundField DataField="Spectators1" HeaderText="Spectators" Visible="true" />
+                </Columns>
+            </asp:GridView>
         </div>
     </div>
 
@@ -29,11 +39,29 @@
 
     <div>
         <div id="game2">
-            <h1><b>GAME-2</b></h1>
+            <h3 class="h6"><b>Hockey</b></h3>
+
+            <asp:GridView ID="hockey" runat="server" AutoGenerateColumns="false"
+                CssClass="table table-bordered table-striped table-hover">
+                <Columns>
+                    <asp:BoundField DataField="TeamName1" HeaderText="Team" Visible="true" />
+                    <asp:BoundField DataField="TeamScore1" HeaderText="Score" Visible="true" />
+                    <asp:BoundField DataField="Spectators1" HeaderText="Spectators" Visible="true" />
+                </Columns>
+            </asp:GridView>
         </div>
 
         <div id="game4">
-            <h1><b>GAME-4</b></h1>
+            <h3 class="h6"><b>Volleyball</b></h3>
+
+            <asp:GridView ID="volleyball" runat="server" AutoGenerateColumns="false"
+                CssClass="table table-bordered table-striped table-hover">
+                <Columns>
+                    <asp:BoundField DataField="TeamName1" HeaderText="Team" Visible="true" />
+                    <asp:BoundField DataField="TeamScore1" HeaderText="Score" Visible="true" />
+                    <asp:BoundField DataField="Spectators1" HeaderText="Spectators" Visible="true" />
+                </Columns> 
+            </asp:GridView>
         </div>
 
 

@@ -21,10 +21,15 @@ namespace COMP229_006_Project_1
             {
                 // Get the student data
                 this.GetFootball1();
+                this.getBasketball();
+                this.Gethockey();
+                this.getvolleyball();
             }
 
 
         }
+
+
 
         /// <summary>
         /// This method gets the game data from the DB
@@ -44,6 +49,49 @@ namespace COMP229_006_Project_1
             }
         }
 
+        private void getBasketball()
+        {
+            using (basketball db = new basketball())
+            {
+                var footballs = (from allFootball1 in db.Basketball12
+                                 select allFootball1);
+                // bind the result to the Students GridView
+                basketball.DataSource = footballs.ToList();
+                basketball.DataBind();
 
+            }
+
+
+
+
+        }
+        private void Gethockey()
+        {
+            // connect to EF DB
+            using (Hockey db = new Hockey())
+            {
+                // query the Student Table using EF and LINQ
+                var footballs = (from allFootball1 in db.Hockey12
+                                 select allFootball1);
+
+                // bind the result to the Students GridView
+                hockey.DataSource = footballs.ToList();
+                hockey.DataBind();
+            }
+        }
+        private void getvolleyball()
+        {
+            // connect to EF DB
+            using (Volleyball db = new Volleyball())
+            {
+                // query the Student Table using EF and LINQ
+                var footballs = (from allFootball1 in db.Volleyball12
+                                 select allFootball1);
+
+                // bind the result to the Students GridView
+                volleyball.DataSource = footballs.ToList();
+                volleyball.DataBind();
+            }
+        }
     }
 }

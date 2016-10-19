@@ -17,6 +17,9 @@ namespace COMP229_006_Project_1
             if (!IsPostBack)
             {
                 this.getFootball();
+                this.getBasketball();
+                this.Gethockey();
+                this.getvolleyball();
             }
         }
 
@@ -30,6 +33,54 @@ namespace COMP229_006_Project_1
                 football.DataSource = footballs.ToList();
                 football.DataBind();
 
+            }
+
+
+
+
+        }
+        private void getBasketball()
+        {
+            using (basketball db = new basketball())
+            {
+                var footballs = (from allFootball1 in db.Basketball13
+                                 select allFootball1);
+                // bind the result to the Students GridView
+                basketball.DataSource = footballs.ToList();
+                basketball.DataBind();
+
+            }
+
+
+
+
+        }
+        private void Gethockey()
+        {
+            // connect to EF DB
+            using (Hockey db = new Hockey())
+            {
+                // query the Student Table using EF and LINQ
+                var footballs = (from allFootball1 in db.Hockey13
+                                 select allFootball1);
+
+                // bind the result to the Students GridView
+                hockey.DataSource = footballs.ToList();
+                hockey.DataBind();
+            }
+        }
+        private void getvolleyball()
+        {
+            // connect to EF DB
+            using (Volleyball db = new Volleyball())
+            {
+                // query the Student Table using EF and LINQ
+                var footballs = (from allFootball1 in db.Volleyball13
+                                 select allFootball1);
+
+                // bind the result to the Students GridView
+                volleyball.DataSource = footballs.ToList();
+                volleyball.DataBind();
             }
         }
     }
