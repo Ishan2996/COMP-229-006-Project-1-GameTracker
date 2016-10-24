@@ -6,7 +6,7 @@ namespace COMP229_006_Project_1.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    public partial class Football2
+    public partial class Football13
     {
         [Key]
         [StringLength(50)]

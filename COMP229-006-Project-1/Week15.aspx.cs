@@ -14,38 +14,49 @@ namespace COMP229_006_Project_1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            // if loading the page for the first time
+            // populate the gametracker grid
             if (!IsPostBack)
             {
-                this.getFootball5();
+                // Get the student data
+                this.GetFootball();
                 this.getBasketball();
                 this.Gethockey();
                 this.getvolleyball();
             }
+
+
         }
 
-        private void getFootball5()
+
+
+        /// <summary>
+        /// This method gets the game data from the DB
+        /// </summary>
+        private void GetFootball()
         {
-            using (FootballWeek15 db = new FootballWeek15())
+            // connect to EF DB
+            using (GameTracker db = new GameTracker())
             {
-                var footballs = (from allFootball14 in db.Football15
-                                 select allFootball14);
-                // bind the result to the Students GridView
+                // query the football Table using EF and LINQ
+                var footballs = (from allFootball15 in db.Football15
+                                 select allFootball15);
+
+                // bind the result to the football GridView
                 football.DataSource = footballs.ToList();
                 football.DataBind();
-
             }
         }
 
         private void getBasketball()
         {
-            using (basketball db = new basketball())
+            using (GameTracker db = new GameTracker())
             {
-                var footballs = (from allFootball1 in db.Basketball15
-                                 select allFootball1);
-                // bind the result to the Students GridView
-                basketball.DataSource = footballs.ToList();
+                var basketetballs = (from allBasketball15 in db.Basketball15
+                                     select allBasketball15);
+                // bind the result to the basketball GridView
+                basketball.DataSource = basketetballs.ToList();
                 basketball.DataBind();
-
             }
 
 
@@ -55,28 +66,28 @@ namespace COMP229_006_Project_1
         private void Gethockey()
         {
             // connect to EF DB
-            using (Hockey db = new Hockey())
+            using (GameTracker db = new GameTracker())
             {
-                // query the Student Table using EF and LINQ
-                var footballs = (from allFootball1 in db.Hockey15
-                                 select allFootball1);
+                // query the hockey Table using EF and LINQ
+                var hockeys = (from allHockey15 in db.Hockey15
+                               select allHockey15);
 
-                // bind the result to the Students GridView
-                hockey.DataSource = footballs.ToList();
+                // bind the result to the hockey GridView
+                hockey.DataSource = hockeys.ToList();
                 hockey.DataBind();
             }
         }
         private void getvolleyball()
         {
             // connect to EF DB
-            using (Volleyball db = new Volleyball())
+            using (GameTracker db = new GameTracker())
             {
-                // query the Student Table using EF and LINQ
-                var footballs = (from allFootball1 in db.Volleyball15
-                                 select allFootball1);
+                // query the volleyball Table using EF and LINQ
+                var volleyballs = (from allVolleyball15 in db.Volleyball15
+                                   select allVolleyball15);
 
-                // bind the result to the Students GridView
-                volleyball.DataSource = footballs.ToList();
+                // bind the result to the volleyball GridView
+                volleyball.DataSource = volleyballs.ToList();
                 volleyball.DataBind();
             }
         }
