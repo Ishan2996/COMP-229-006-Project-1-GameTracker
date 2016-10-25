@@ -74,12 +74,16 @@
     <Content Include="Assets\images\bg.png" />
     <Content Include="Assets\images\logo.jpg" />
     <Content Include="Assets\images\logo.png" />
+    <Content Include="BasketballDetails.aspx" />
     <Content Include="Content\app.css" />
     <Content Include="Default.aspx" />
+    <Content Include="FootballDetails.aspx" />
+    <Content Include="HockeyDetails.aspx" />
     <Content Include="SignIn.aspx" />
     <Content Include="packages.config" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />
+    <Content Include="VolleyballDetails.aspx" />
     <Content Include="Week13.aspx" />
     <Content Include="Week14.aspx" />
     <Content Include="Week15.aspx" />
@@ -125,6 +129,13 @@
     <Content Include="SiteMaster.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasketballDetails.aspx.cs">
+      <DependentUpon>BasketballDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasketballDetails.aspx.designer.cs">
+      <DependentUpon>BasketballDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -132,8 +143,22 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FootballDetails.aspx.cs">
+      <DependentUpon>FootballDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FootballDetails.aspx.designer.cs">
+      <DependentUpon>FootballDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HockeyDetails.aspx.cs">
+      <DependentUpon>HockeyDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HockeyDetails.aspx.designer.cs">
+      <DependentUpon>HockeyDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\Basketball12.cs" />
     <Compile Include="Models\Basketball13.cs" />
@@ -173,6 +198,13 @@
     </Compile>
     <Compile Include="SiteMaster.Master.designer.cs">
       <DependentUpon>SiteMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="VolleyballDetails.aspx.cs">
+      <DependentUpon>VolleyballDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VolleyballDetails.aspx.designer.cs">
+      <DependentUpon>VolleyballDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Week13.aspx.cs">
       <DependentUpon>Week13.aspx</DependentUpon>

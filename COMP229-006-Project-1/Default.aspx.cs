@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-// using statements that are required to connect to EF DB
+
 using COMP229_006_Project_1.Models;
 using System.Web.ModelBinding;
 

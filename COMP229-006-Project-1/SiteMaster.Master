@@ -71,14 +71,18 @@
             </asp:ContentPlaceHolder>
         </div>
        
-       <footer role="contentinfo">
-            <nav class="navbar navbar-main navbar-fixed-bottom" style="background-color: #000000; color: #808080">
-                <div class="container">
-                    <marquee id="marquee_speed" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();" scrolldelay="40"> <h3> <img src="Assets/images/logo.png" id="is" /> &copy; <b>Ishan Sharma (#300856455) || Solanky Thareja (#300869859) | Fall-2016-COMP229-006 | Game Tracker </b> </h3>
-                </div>
-            </nav>
-        </footer>
+
+
+            <!-- Footer -->
+    <nav class="navbar navbar-main navbar-fixed-bottom" style="background-color: #000000; color: #808080">
+        <div class="container">
+            <h4><img src="Assets/images/logo.png" id="is" />  &copy; <b>Ishan Sharma (#300856455) || Solanky Thareja (#300869859) | Fall-2016-COMP229-006 | Game Tracker </b> 
+                </h4>
+        </div>
+    </nav>
     </form>
+
+
 
     <!-- JavaScript Section -->
     <script src="Scripts/jquery-2.2.4.min.js"></script>
