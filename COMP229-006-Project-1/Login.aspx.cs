@@ -39,7 +39,7 @@ namespace COMP229_006_Project_1
                 authenticationManager.SignIn(new AuthenticationProperties() { IsPersistent = false }, userIdentity);
 
                 // redirect the user to the details page
-                Response.Redirect("../Default.aspx");
+                Response.Redirect("~/Default.aspx");
             }
             else // user is not found
             {

@@ -59,23 +59,23 @@ namespace COMP229_006_Project_1
 
                 int FootballID = 0;
 
-                if (Request.QueryString.Count > 0) // our URL has a STUDENTID in it
+                if (Request.QueryString.Count > 0) 
                 {
                     // get the id from the URL
                     FootballID = Convert.ToInt32(Request.QueryString["StudentID"]);
 
-                    // get the current student from EF db
+                    // get the current game from EF db
                     newFootball12 = (from student in db.Football12
                                      where student.Spectators1 == FootballID
                                      select student).FirstOrDefault();
                 }
 
-                // add form data to the new student record
+                // add form data to the new game record
                 newFootball12.TeamName1 = TeamaTextBox.Text;
                 newFootball12.TeamScore1 = Convert.ToInt32(TeambTextBox.Text);
                 newFootball12.Spectators1 = Convert.ToInt32(SpectatorsTextBox.Text);
 
-                // use LINQ to ADO.NET to add / insert new student into the db
+                // use LINQ to ADO.NET to add / insert new data into the db
 
                 if (FootballID == 0)
                 {
@@ -85,7 +85,7 @@ namespace COMP229_006_Project_1
                 // save our changes - also updates and inserts
                 db.SaveChanges();
 
-                // Redirect back to the updated students page
+                // Redirect back to the updated game page
                 Response.Redirect("../Default.aspx");
             }
         }

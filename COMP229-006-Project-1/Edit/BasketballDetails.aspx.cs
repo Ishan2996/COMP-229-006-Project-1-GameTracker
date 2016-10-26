@@ -60,7 +60,7 @@ namespace COMP229_006_Project_1
 
                 int BasketballID = 0;
 
-                if (Request.QueryString.Count > 0) // our URL has a STUDENTID in it
+                if (Request.QueryString.Count > 0) // our URL has a FootballID in it
                 {
                     // get the id from the URL
                     BasketballID = Convert.ToInt32(Request.QueryString["StudentID"]);
@@ -76,7 +76,7 @@ namespace COMP229_006_Project_1
                 newBasketball12.TeamScore1 = Convert.ToInt32(TeambTextBox.Text);
                 newBasketball12.Spectators1 = Convert.ToInt32(SpectatorsTextBox.Text);
 
-                // use LINQ to ADO.NET to add / insert new student into the db
+                // use LINQ to ADO.NET to add / insert new data into the db
 
                 if (BasketballID == 0)
                 {
@@ -86,7 +86,7 @@ namespace COMP229_006_Project_1
                 // save our changes - also updates and inserts
                 db.SaveChanges();
 
-                // Redirect back to the updated students page
+                // Redirect back to the updated game page
                 Response.Redirect("../Default.aspx");
             }
         }

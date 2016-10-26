@@ -55,7 +55,7 @@
 
                 <asp:PlaceHolder ID="ContosoPlaceHolder" runat="server">
                    
-                    <li id="logout" runat="server"><a href="Default.aspx"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+                    <li id="logout" runat="server"><a href="/Default.aspx"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
                 </asp:PlaceHolder>
                 
                  
@@ -94,8 +94,13 @@
         </nav>
     </form>
     -->
-
-
+    <footer>
+        <nav class="navbar navbar-main navbar-fixed-bottom" style="background-color: #000000; color: #808080">
+            <div class="container">
+         <h6>&copy; <b>Ishan Sharma (#300856455) || Solanky Thareja (#300869859) | Fall-2016-COMP229-006 | Game Tracker </b></h6>
+                 </div>
+        </nav>
+    </footer>
     <!-- JavaScript Section -->
     <script src="Scripts/jquery-2.2.4.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
