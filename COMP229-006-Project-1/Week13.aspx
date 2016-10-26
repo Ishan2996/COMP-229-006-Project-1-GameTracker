@@ -8,7 +8,7 @@
 
         <div id="game1">
             <h4 class="h6"><b>Football</b></h4>
-             <a href="FootballDetails.aspx" class="btn btn-success btn-sm">
+             <a href="/Edit/FootballDetails.aspx" class="btn btn-success btn-sm">
                     <i class="fa fa-plus"></i> Add Score
                 </a>
             <asp:GridView ID="football" runat="server" AutoGenerateColumns="false" 
@@ -25,7 +25,7 @@
         <div id="game3">
             
             <h3 class="h6"><b>Basketball</b></h3>
-               <a href="BasketballDetails.aspx" class="btn btn-success btn-sm">
+               <a href="/Edit/BasketballDetails.aspx" class="btn btn-success btn-sm">
                     <i class="fa fa-plus"></i> Add Score
                 </a>
             <asp:GridView ID="basketball" runat="server" AutoGenerateColumns="false"
@@ -44,7 +44,7 @@
     <div>
         <div id="game2">
             <h3 class="h6"><b>Hockey</b></h3>
-             <a href="HockeyDetails.aspx" class="btn btn-success btn-sm">
+             <a href="/Edit/HockeyDetails.aspx" class="btn btn-success btn-sm">
                     <i class="fa fa-plus"></i> Add Score
                 </a>
             <asp:GridView ID="hockey" runat="server" AutoGenerateColumns="false"
@@ -59,7 +59,7 @@
 
         <div id="game4">
             <h3 class="h6"><b>Volleyball</b></h3>
-            <a href="VolleyballDetails.aspx" class="btn btn-success btn-sm">
+            <a href="/Edit/VolleyballDetails.aspx" class="btn btn-success btn-sm">
                     <i class="fa fa-plus"></i> Add Score
                 </a>
             <asp:GridView ID="volleyball" runat="server" AutoGenerateColumns="false"

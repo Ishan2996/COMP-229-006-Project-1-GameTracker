@@ -92,5 +92,10 @@ namespace COMP229_006_Project_1
                 volleyball.DataBind();
             }
         }
+
+        protected void football_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+
+        }
     }
 }
